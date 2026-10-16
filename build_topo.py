@@ -54,11 +54,14 @@ def check_mine(spec):
 def check(spec):
     """Return a list of problems in the description (an empty list means it looks fine).
 
-    Week 2 task: report any IP address that is used by more than one host.
+    Week 2 task: 
+    1. Report any IP address that is used by more than one host (IPv4 and IPv6).
+    2. Report any link that references a switch or host that does not exist.
     """
     problems = []
+    
+    # --- 1. CHECK FOR DUPLICATE IP ADDRESSES ---
     ip_to_hosts = {}
-
     for host in spec.get("hosts", []):
         host_name = host.get("name", "unknown")
         for key in ("ip", "ipv6"):
@@ -75,11 +78,39 @@ def check(spec):
                     ip_to_hosts[ip_obj] = []
                 ip_to_hosts[ip_obj].append(host_name)
 
-    # Check for duplicate IP addresses
+    # Report duplicate IP addresses
     for ip, hosts in ip_to_hosts.items():
         if len(hosts) > 1:
             problems.append(f"IP address {ip} is used by more than one host: {', '.join(hosts)}")
 
+    # --- 2. CHECK FOR INVALID LINKS (Non-existent nodes & Host-to-Host links) ---
+    # Gather switch names into a set and host names into a separate set
+    switches = set(spec.get("switches", []))
+    hosts = set()
+    for host in spec.get("hosts", []):
+        if "name" in host:
+            hosts.add(host["name"])
+            
+    valid_nodes = switches.union(hosts)
+
+    # Check every link pair [a, b]
+    for link in spec.get("links", []):
+        if not isinstance(link, list) or len(link) != 2:
+            problems.append(f"Invalid link format: {link} (must be a pair like [node1, node2])")
+            continue
+        
+        node_a, node_b = link
+        
+        # Check if nodes exist at all
+        if node_a not in valid_nodes:
+            problems.append(f"Link references non-existent node: '{node_a}'")
+        if node_b not in valid_nodes:
+            problems.append(f"Link references non-existent node: '{node_b}'")
+            
+        # Check if both nodes are hosts (Host-to-Host connection rule)
+        if node_a in hosts and node_b in hosts:
+            problems.append(f"Invalid link between two hosts: '{node_a}' and '{node_b}' (hosts cannot connect directly to hosts)")
+            
     return problems
 
 

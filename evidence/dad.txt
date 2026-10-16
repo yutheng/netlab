@@ -1,0 +1,12 @@
+2: h2-eth0@if66: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000 link-netnsid 0
+    inet6 fd00:5015::1/64 scope global dadfailed tentative 
+       valid_lft forever preferred_lft forever
+    inet6 fd00:5015::2/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::200:ff:fe00:2/64 scope link 
+       valid_lft forever preferred_lft forever
+2: h2-eth0@if66: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000 link-netnsid 0
+    inet 10.15.0.2/24 brd 10.15.0.255 scope global h2-eth0
+       valid_lft forever preferred_lft forever
+    inet 10.15.0.1/24 scope global secondary h2-eth0
+       valid_lft forever preferred_lft forever

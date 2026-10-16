@@ -1,0 +1,4 @@
+PROBLEM: IP address 10.15.0.1 is used by more than one host: h1, h6
+PROBLEM: IP address fd00:5015::1 is used by more than one host: h1, h6
+PROBLEM: Link references non-existent node: 's10'
+Fix the description and try again.

@@ -1,0 +1,29 @@
+# page.yaml: the words on your page, kept as data like everything else.
+# make_page.py puts each answer under its question. A few sentences each, in your own words;
+# leave a blank line between paragraphs. Refer to YOUR network and YOUR evidence.
+# Never put your name or full student ID here: the page is public.
+
+repository: https://github.com/yutheng/netlab
+
+answers:
+  planes:
+    question: "Where are the data, control and management planes in your network?"
+    answer: "Data plane and control plane - switch, management plane - mininet"
+  learning:
+    question: "How did your switches learn which port leads to each host? Use your MAC table evidence."
+    answer: "For not local, through source MAC, for example mac 01 is learned on port 1 means h1 is connected to this port. While for lcoal, it means that the port mac address is belongs to the switch itself."
+  kind:
+    question: "Which of the four kinds of programmability is this assignment (a network described as data, then built and documented by scripts)? Why isn't it any of the other three?"
+    answer: "This lab uses configuration as data / declarative modeling, defining the desired end-state of the network entirely as data and compiling or rendering them to automatically build and provision the environment because we are not using script to log into the devices, API and controller"
+  two_am:
+    question: "Week 1's 2 a.m. change on 40 switches: what would be different if those switches were described like your network?"
+    answer: "Instead of manually configuring the switches using the CLI one by one, they could be managed the switches by updating the template and redeploy"
+  model:
+    question: "What's the difference between your network's data model and its serialisation? Use YAML and JSON as the example."
+    answer: "Data model is the underlying logical structure like hosts, switches and links. Serialization is the text format used to store or transmit the data. YAML is a more human readable format that use spaces to show hierarchy and nesting while JSON use braces and quotes"
+  check:
+    question: "Why is it better to catch bad data in check() than with pingall? What did IPv6 notice about a duplicate address that IPv4 didn't?"
+    answer: "Catching errors with check() happen before building the network, saving time and preventing invalid stated. IPv6 uses DAD to check whether the host IP address is duplicated while IPv4 blindly accept duplicate IPs"
+  git:
+    question: "What does your Git history give you that copying files into folders named topology-v2-final wouldn't?"
+    answer: "Git tracks line-by-line diffs, allows to roll back safely, branch out, and provides a clear audit history of why and when changes happened"
