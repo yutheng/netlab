@@ -11,6 +11,7 @@ student_id_last4: "5015"
 
 switches:
   - s1
+  - s2
 
 hosts:
   - name: h1
@@ -22,9 +23,14 @@ hosts:
   - name: h3
     ip: 10.15.0.3/24
     ipv6: fd00:5015::3/64
+  - name: h4
+    ip: 10.15.0.4/24
+    ipv6: fd00:5015::4/64
 
 # Each link joins two nodes.
 links:
   - [h1, s1]
   - [h2, s1]
   - [h3, s1]
+  - [h4, s2]
+  - [s1, s2]
