@@ -1,0 +1,19 @@
+# page3.yaml: the words on your Week 3 page. make_page3.py puts each answer under its question.
+# A few sentences each, in your own words, about YOUR network and YOUR evidence.
+# Leave a blank line between paragraphs. Never put your name or full student ID here.
+
+repository: https://github.com/yutheng/netlab
+
+answers:
+  design:
+    question: "Describe your design: why these routers, LANs and links, and how you chose the addresses."
+    answer: "The network consists of 4 routers, each with a single LAN, interconnected by 4 links to form a ring topology. The LAN subnets are assigned sequentially from 10.15.0.0/24 to 10.15.3.0/24. Starting the layout at 0.0 allows lan-h1 (10.15.0.0/24) and lan-h2 (10.15.1.0/24) to align on an even boundary, making them cleanly summarizable under a single 10.15.0.0/23 prefix"
+  summary:
+    question: "Which route summarises several LANs? Which networks does it cover, why is it correct, and what else would it attract if you added a network inside its range?"
+    answer: "The summary route 10.15.0.0/23 configured on router r4 summarizes lan-h1 (10.15.0.0/24) and lan-h2 (10.15.1.0/24). This is correct because both contiguous subnets lie in the direction of r2, allowing r4 to combine them into a single entry pointing via 10.15.12.1. If you were to add a new network or subnet inside that range (for instance, allocating an IP block within 10.15.0.0/23) and connect it elsewhere in the topology—such as on r3—the summary route on r4 would still blindly attract and forward all traffic meant for that new network toward r2, causing misrouting"
+  failure:
+    question: "When you took a link down, what happened, and why couldn't your routes recover even though another path existed? What would have recovered?"
+    answer: "When a link was taken down, traffic failed with destination unreachable errors because static routes are fixed and blind to physical topology changes. Even though an alternative path existed through the ring, the routers continued using their hardcoded tables and could not adapt. Implementing a dynamic routing protocol (such as OSPF or IS-IS) would have automatically recovered the network by detecting the link failure, sharing topology updates, and recalculating a working path"
+  control_plane:
+    question: "In your network, what was the control plane? Who worked out the routes, and what does that mean for a network of 40 routers?"
+    answer: "In this network, there was no automated control plane protocol running on the routers. Instead, the network engineer acted as the control plane brain, calculating and manually configuring every route. While the routers stored and applied the rules, they did not discover the topology themselves. For a small 4-router lab, manual configuration is doable, but in a network of 40 routers, static routing means a human has to manually program every device, which is completely unscalable, tedious, and highly vulnerable to human error"

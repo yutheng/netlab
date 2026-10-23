@@ -1,0 +1,59 @@
+# missing.yaml: based on your 11-route network.yaml with one route deleted on r4
+
+student_id_last4: "5015"
+
+routers: [r1, r2, r3, r4]
+
+lans:
+  - name: lan-h1
+    network: 10.15.0.0/24
+    router: r1
+    host: h1
+  - name: lan-h2
+    network: 10.15.1.0/24
+    router: r2
+    host: h2
+  - name: lan-h3
+    network: 10.15.2.0/24
+    router: r3
+    host: h3
+  - name: lan-h4
+    network: 10.15.3.0/24
+    router: r4
+    host: h4
+
+links:
+  - [r1, r2, 10.15.10.0/30]    # r1 is .1, r2 is .2
+  - [r1, r3, 10.15.11.0/30]    # r1 is .1, r3 is .2
+  - [r2, r4, 10.15.12.0/30]    # r2 is .1, r4 is .2
+  - [r3, r4, 10.15.13.0/30]    # r3 is .1, r4 is .2
+
+routes:
+  r1:
+    - to: 10.15.1.0/24    # Reach h2 via r2 link
+      via: 10.15.10.2
+    - to: 10.15.2.0/24    # Reach h3 via r3 link
+      via: 10.15.11.2
+    - to: 10.15.3.0/24    # Reach h4 via r3 -> r4 path
+      via: 10.15.11.2
+
+  r2:
+    - to: 10.15.0.0/24    # Reach h1 via r1 link
+      via: 10.15.10.1
+    - to: 10.15.2.0/24    # Reach h3 via r4 link
+      via: 10.15.12.2
+    - to: 10.15.3.0/24    # Reach h4 via r4 link
+      via: 10.15.12.2
+
+  r3:
+    - to: 10.15.0.0/24    # Reach h1 via r1 link
+      via: 10.15.11.1
+    - to: 10.15.1.0/24    # Reach h2 via r1 -> r2 path
+      via: 10.15.11.1
+    - to: 10.15.3.0/24    # Reach h4 via r4 link
+      via: 10.15.13.2
+
+  r4:
+    - to: 10.15.0.0/23    # Summary route covering h1 and h2 via r2 link
+      via: 10.15.12.1
+    # ROUTE DELETED HERE: r4 is missing its route to h3 (10.15.2.0/24)

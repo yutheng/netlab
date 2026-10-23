@@ -1,0 +1,5 @@
+== summary check on r4 for h1 and h2
+10.15.0.10 via 10.15.12.1 dev r4-eth1 src 10.15.12.2 uid 0 
+    cache 
+10.15.1.10 via 10.15.12.1 dev r4-eth1 src 10.15.12.2 uid 0 
+    cache 
