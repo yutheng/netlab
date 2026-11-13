@@ -1,0 +1,3 @@
+PROBLEM: tenant blocka (VNI 10100): MTU 1500 + 50 bytes of VXLAN = 1550, but the underlay carries only 1500: 50 bytes too big. Lower the tenant MTU to 1450 or raise the underlay MTU to 1550.
+PROBLEM: tenant blockb (VNI 10200): MTU 1500 + 50 bytes of VXLAN = 1550, but the underlay carries only 1500: 50 bytes too big. Lower the tenant MTU to 1450 or raise the underlay MTU to 1550.
+Fix the design and try again: nothing was built.

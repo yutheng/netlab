@@ -1,0 +1,24 @@
+PING 10.15.50.11 (10.15.50.11) 56(84) bytes of data.
+64 bytes from 10.15.50.11: icmp_seq=1 ttl=64 time=9.83 ms
+64 bytes from 10.15.50.11: icmp_seq=2 ttl=64 time=0.110 ms
+64 bytes from 10.15.50.11: icmp_seq=3 ttl=64 time=0.145 ms
+
+--- 10.15.50.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2056ms
+rtt min/avg/max/mdev = 0.110/3.362/9.832/4.574 ms
+10.15.50.11 dev ccnalab-eth0 lladdr 02:00:27:74:00:0b REACHABLE 
+== captured on dk2 meanwhile
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on dk2-eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+
+0 packets captured
+0 packets received by filter
+0 packets dropped by kernel
+PING 10.15.50.11 (10.15.50.11) 56(84) bytes of data.
+64 bytes from 10.15.50.11: icmp_seq=1 ttl=64 time=0.283 ms
+64 bytes from 10.15.50.11: icmp_seq=2 ttl=64 time=0.089 ms
+
+--- 10.15.50.11 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1056ms
+rtt min/avg/max/mdev = 0.089/0.186/0.283/0.097 ms
+10.15.50.11 dev dk1-eth0 lladdr 02:00:27:d8:00:0b REACHABLE 
