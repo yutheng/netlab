@@ -15,7 +15,7 @@ four digits appear in this repository.
 | | |
 |---|---|
 | Semester/Session | Semester I, 2026/2027 |
-| Programme Name | _(your programme)_ |
+| Programme Name | Computer System and Network |
 | Course Code & Name | WIC2005 Programmable Networks |
 | Assignment/Assessment Title | Lab portfolio assignments (one section per week below) |
 
