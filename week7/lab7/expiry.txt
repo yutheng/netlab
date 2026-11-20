@@ -1,0 +1,20 @@
+logged in as netops
+429 Too Many Requests — waiting 1.0s
+429 Too Many Requests — waiting 1.0s
+429 Too Many Requests — waiting 1.0s
+429 Too Many Requests — waiting 1.0s
+429 Too Many Requests — waiting 1.0s
+401 Unauthorized (token expired) — logging in again
+logged in as netops
+429 Too Many Requests — waiting 1.0s
+429 Too Many Requests — waiting 1.0s
+429 Too Many Requests — waiting 1.0s
+429 Too Many Requests — waiting 1.0s
+429 Too Many Requests — waiting 1.0s
+401 Unauthorized (token expired) — logging in again
+logged in as netops
+215 devices read (the API says 215), in 34 requests; saved devices.json
+  johor: 53
+  kl-hq: 54
+  penang: 54
+  pj-dc: 54

@@ -1,0 +1,13 @@
+logged in as netops
+503 Service Unavailable — retrying in 1.45s
+503 Service Unavailable — retrying in 1.22s
+503 Service Unavailable — retrying in 2.20s
+503 Service Unavailable — retrying in 4.13s
+503 Service Unavailable — retrying in 1.27s
+503 Service Unavailable — retrying in 1.27s
+503 Service Unavailable — retrying in 1.03s
+215 devices read (the API says 215), in 29 requests; saved devices.json
+  johor: 53
+  kl-hq: 54
+  penang: 54
+  pj-dc: 54

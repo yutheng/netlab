@@ -1,0 +1,1507 @@
+[
+  {
+    "name": "sw-johor-001",
+    "site": "johor",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.203.1",
+    "os_version": "17.6.1"
+  },
+  {
+    "name": "sw-johor-002",
+    "site": "johor",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.203.2",
+    "os_version": "17.8.2"
+  },
+  {
+    "name": "sw-johor-003",
+    "site": "johor",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.203.3",
+    "os_version": "17.12.3"
+  },
+  {
+    "name": "sw-johor-004",
+    "site": "johor",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.203.4",
+    "os_version": "17.11.2"
+  },
+  {
+    "name": "sw-johor-005",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.5",
+    "os_version": "17.10.5"
+  },
+  {
+    "name": "sw-johor-006",
+    "site": "johor",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.203.6",
+    "os_version": "17.7.2"
+  },
+  {
+    "name": "sw-johor-007",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.7",
+    "os_version": "17.10.4"
+  },
+  {
+    "name": "sw-johor-008",
+    "site": "johor",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.203.8",
+    "os_version": "17.5.4"
+  },
+  {
+    "name": "sw-johor-009",
+    "site": "johor",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.203.9",
+    "os_version": "17.7.1"
+  },
+  {
+    "name": "sw-johor-010",
+    "site": "johor",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.203.10",
+    "os_version": "17.7.5"
+  },
+  {
+    "name": "sw-johor-011",
+    "site": "johor",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.203.11",
+    "os_version": "17.7.2"
+  },
+  {
+    "name": "sw-johor-012",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.12",
+    "os_version": "17.12.3"
+  },
+  {
+    "name": "sw-johor-013",
+    "site": "johor",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.203.13",
+    "os_version": "17.4.3"
+  },
+  {
+    "name": "sw-johor-014",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.14",
+    "os_version": "17.5.4"
+  },
+  {
+    "name": "sw-johor-015",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.15",
+    "os_version": "17.11.4"
+  },
+  {
+    "name": "sw-johor-016",
+    "site": "johor",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.203.16",
+    "os_version": "17.5.1"
+  },
+  {
+    "name": "sw-johor-017",
+    "site": "johor",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.203.17",
+    "os_version": "17.6.3"
+  },
+  {
+    "name": "sw-johor-018",
+    "site": "johor",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.203.18",
+    "os_version": "17.11.2"
+  },
+  {
+    "name": "sw-johor-019",
+    "site": "johor",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.203.19",
+    "os_version": "17.10.2"
+  },
+  {
+    "name": "sw-johor-020",
+    "site": "johor",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.203.20",
+    "os_version": "17.3.3"
+  },
+  {
+    "name": "sw-johor-021",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.21",
+    "os_version": "17.5.3"
+  },
+  {
+    "name": "sw-johor-022",
+    "site": "johor",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.203.22",
+    "os_version": "17.4.4"
+  },
+  {
+    "name": "sw-johor-023",
+    "site": "johor",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.203.23",
+    "os_version": "17.7.2"
+  },
+  {
+    "name": "sw-johor-024",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.24",
+    "os_version": "17.6.2"
+  },
+  {
+    "name": "sw-johor-025",
+    "site": "johor",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.203.25",
+    "os_version": "17.9.3"
+  },
+  {
+    "name": "sw-johor-026",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.26",
+    "os_version": "17.5.5"
+  },
+  {
+    "name": "sw-johor-027",
+    "site": "johor",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.203.27",
+    "os_version": "17.8.2"
+  },
+  {
+    "name": "sw-johor-028",
+    "site": "johor",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.203.28",
+    "os_version": "17.3.3"
+  },
+  {
+    "name": "sw-johor-029",
+    "site": "johor",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.203.29",
+    "os_version": "17.11.4"
+  },
+  {
+    "name": "sw-johor-030",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.30",
+    "os_version": "17.3.5"
+  },
+  {
+    "name": "sw-johor-031",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.31",
+    "os_version": "17.5.1"
+  },
+  {
+    "name": "sw-johor-032",
+    "site": "johor",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.203.32",
+    "os_version": "17.10.2"
+  },
+  {
+    "name": "sw-johor-033",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.33",
+    "os_version": "17.4.5"
+  },
+  {
+    "name": "sw-johor-034",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.34",
+    "os_version": "17.6.3"
+  },
+  {
+    "name": "sw-johor-035",
+    "site": "johor",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.203.35",
+    "os_version": "17.12.3"
+  },
+  {
+    "name": "sw-johor-036",
+    "site": "johor",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.203.36",
+    "os_version": "17.12.3"
+  },
+  {
+    "name": "sw-johor-037",
+    "site": "johor",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.203.37",
+    "os_version": "17.9.1"
+  },
+  {
+    "name": "sw-johor-038",
+    "site": "johor",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.203.38",
+    "os_version": "17.8.5"
+  },
+  {
+    "name": "sw-johor-039",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.39",
+    "os_version": "17.5.3"
+  },
+  {
+    "name": "sw-johor-040",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.40",
+    "os_version": "17.9.3"
+  },
+  {
+    "name": "sw-johor-041",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.41",
+    "os_version": "17.3.2"
+  },
+  {
+    "name": "sw-johor-042",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.42",
+    "os_version": "17.4.1"
+  },
+  {
+    "name": "sw-johor-043",
+    "site": "johor",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.203.43",
+    "os_version": "17.8.4"
+  },
+  {
+    "name": "sw-johor-044",
+    "site": "johor",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.203.44",
+    "os_version": "17.7.4"
+  },
+  {
+    "name": "sw-johor-045",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.45",
+    "os_version": "17.3.2"
+  },
+  {
+    "name": "sw-johor-046",
+    "site": "johor",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.203.46",
+    "os_version": "17.5.2"
+  },
+  {
+    "name": "sw-johor-047",
+    "site": "johor",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.203.47",
+    "os_version": "17.11.1"
+  },
+  {
+    "name": "sw-johor-048",
+    "site": "johor",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.203.48",
+    "os_version": "17.7.2"
+  },
+  {
+    "name": "sw-johor-049",
+    "site": "johor",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.203.49",
+    "os_version": "17.5.1"
+  },
+  {
+    "name": "sw-johor-050",
+    "site": "johor",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.203.50",
+    "os_version": "17.4.1"
+  },
+  {
+    "name": "sw-johor-051",
+    "site": "johor",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.203.51",
+    "os_version": "17.3.4"
+  },
+  {
+    "name": "sw-johor-052",
+    "site": "johor",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.203.52",
+    "os_version": "17.6.2"
+  },
+  {
+    "name": "sw-johor-053",
+    "site": "johor",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.203.53",
+    "os_version": "17.10.3"
+  },
+  {
+    "name": "sw-kl-hq-001",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.1",
+    "os_version": "17.3.5"
+  },
+  {
+    "name": "sw-kl-hq-002",
+    "site": "kl-hq",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.200.2",
+    "os_version": "17.10.3"
+  },
+  {
+    "name": "sw-kl-hq-003",
+    "site": "kl-hq",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.200.3",
+    "os_version": "17.11.4"
+  },
+  {
+    "name": "sw-kl-hq-004",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.4",
+    "os_version": "17.12.3"
+  },
+  {
+    "name": "sw-kl-hq-005",
+    "site": "kl-hq",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.200.5",
+    "os_version": "17.7.5"
+  },
+  {
+    "name": "sw-kl-hq-006",
+    "site": "kl-hq",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.200.6",
+    "os_version": "17.9.5"
+  },
+  {
+    "name": "sw-kl-hq-007",
+    "site": "kl-hq",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.200.7",
+    "os_version": "17.9.4"
+  },
+  {
+    "name": "sw-kl-hq-008",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.8",
+    "os_version": "17.3.3"
+  },
+  {
+    "name": "sw-kl-hq-009",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.9",
+    "os_version": "17.10.1"
+  },
+  {
+    "name": "sw-kl-hq-010",
+    "site": "kl-hq",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.200.10",
+    "os_version": "17.3.3"
+  },
+  {
+    "name": "sw-kl-hq-011",
+    "site": "kl-hq",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.200.11",
+    "os_version": "17.9.4"
+  },
+  {
+    "name": "sw-kl-hq-012",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.12",
+    "os_version": "17.11.3"
+  },
+  {
+    "name": "sw-kl-hq-013",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.13",
+    "os_version": "17.8.1"
+  },
+  {
+    "name": "sw-kl-hq-014",
+    "site": "kl-hq",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.200.14",
+    "os_version": "17.10.5"
+  },
+  {
+    "name": "sw-kl-hq-015",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.15",
+    "os_version": "17.6.5"
+  },
+  {
+    "name": "sw-kl-hq-016",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.16",
+    "os_version": "17.8.4"
+  },
+  {
+    "name": "sw-kl-hq-017",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.17",
+    "os_version": "17.12.2"
+  },
+  {
+    "name": "sw-kl-hq-018",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.18",
+    "os_version": "17.12.1"
+  },
+  {
+    "name": "sw-kl-hq-019",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.19",
+    "os_version": "17.10.4"
+  },
+  {
+    "name": "sw-kl-hq-020",
+    "site": "kl-hq",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.200.20",
+    "os_version": "17.10.3"
+  },
+  {
+    "name": "sw-kl-hq-021",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.21",
+    "os_version": "17.10.5"
+  },
+  {
+    "name": "sw-kl-hq-022",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.22",
+    "os_version": "17.10.3"
+  },
+  {
+    "name": "sw-kl-hq-023",
+    "site": "kl-hq",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.200.23",
+    "os_version": "17.8.4"
+  },
+  {
+    "name": "sw-kl-hq-024",
+    "site": "kl-hq",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.200.24",
+    "os_version": "17.7.2"
+  },
+  {
+    "name": "sw-kl-hq-025",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.25",
+    "os_version": "17.9.2"
+  },
+  {
+    "name": "sw-kl-hq-026",
+    "site": "kl-hq",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.200.26",
+    "os_version": "17.9.3"
+  },
+  {
+    "name": "sw-kl-hq-027",
+    "site": "kl-hq",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.200.27",
+    "os_version": "17.7.2"
+  },
+  {
+    "name": "sw-kl-hq-028",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.28",
+    "os_version": "17.11.5"
+  },
+  {
+    "name": "sw-kl-hq-029",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.29",
+    "os_version": "17.8.5"
+  },
+  {
+    "name": "sw-kl-hq-030",
+    "site": "kl-hq",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.200.30",
+    "os_version": "17.10.5"
+  },
+  {
+    "name": "sw-kl-hq-031",
+    "site": "kl-hq",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.200.31",
+    "os_version": "17.3.4"
+  },
+  {
+    "name": "sw-kl-hq-032",
+    "site": "kl-hq",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.200.32",
+    "os_version": "17.11.3"
+  },
+  {
+    "name": "sw-kl-hq-033",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.33",
+    "os_version": "17.5.5"
+  },
+  {
+    "name": "sw-kl-hq-034",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.34",
+    "os_version": "17.9.5"
+  },
+  {
+    "name": "sw-kl-hq-035",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.35",
+    "os_version": "17.5.4"
+  },
+  {
+    "name": "sw-kl-hq-036",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.36",
+    "os_version": "17.5.2"
+  },
+  {
+    "name": "sw-kl-hq-037",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.37",
+    "os_version": "17.5.5"
+  },
+  {
+    "name": "sw-kl-hq-038",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.38",
+    "os_version": "17.8.5"
+  },
+  {
+    "name": "sw-kl-hq-039",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.39",
+    "os_version": "17.6.4"
+  },
+  {
+    "name": "sw-kl-hq-040",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.40",
+    "os_version": "17.12.1"
+  },
+  {
+    "name": "sw-kl-hq-041",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.41",
+    "os_version": "17.3.4"
+  },
+  {
+    "name": "sw-kl-hq-042",
+    "site": "kl-hq",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.200.42",
+    "os_version": "17.4.4"
+  },
+  {
+    "name": "sw-kl-hq-043",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.43",
+    "os_version": "17.5.1"
+  },
+  {
+    "name": "sw-kl-hq-044",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.44",
+    "os_version": "17.4.2"
+  },
+  {
+    "name": "sw-kl-hq-045",
+    "site": "kl-hq",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.200.45",
+    "os_version": "17.6.1"
+  },
+  {
+    "name": "sw-kl-hq-046",
+    "site": "kl-hq",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.200.46",
+    "os_version": "17.8.1"
+  },
+  {
+    "name": "sw-kl-hq-047",
+    "site": "kl-hq",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.200.47",
+    "os_version": "17.12.5"
+  },
+  {
+    "name": "sw-kl-hq-048",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.48",
+    "os_version": "17.12.5"
+  },
+  {
+    "name": "sw-kl-hq-049",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.49",
+    "os_version": "17.5.5"
+  },
+  {
+    "name": "sw-kl-hq-050",
+    "site": "kl-hq",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.200.50",
+    "os_version": "17.11.5"
+  },
+  {
+    "name": "sw-kl-hq-051",
+    "site": "kl-hq",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.200.51",
+    "os_version": "17.6.3"
+  },
+  {
+    "name": "sw-kl-hq-052",
+    "site": "kl-hq",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.200.52",
+    "os_version": "17.5.4"
+  },
+  {
+    "name": "sw-kl-hq-053",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.53",
+    "os_version": "17.5.3"
+  },
+  {
+    "name": "sw-kl-hq-054",
+    "site": "kl-hq",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.200.54",
+    "os_version": "17.8.4"
+  },
+  {
+    "name": "sw-penang-001",
+    "site": "penang",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.202.1",
+    "os_version": "17.3.2"
+  },
+  {
+    "name": "sw-penang-002",
+    "site": "penang",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.202.2",
+    "os_version": "17.6.2"
+  },
+  {
+    "name": "sw-penang-003",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.3",
+    "os_version": "17.10.1"
+  },
+  {
+    "name": "sw-penang-004",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.4",
+    "os_version": "17.3.2"
+  },
+  {
+    "name": "sw-penang-005",
+    "site": "penang",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.202.5",
+    "os_version": "17.9.1"
+  },
+  {
+    "name": "sw-penang-006",
+    "site": "penang",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.202.6",
+    "os_version": "17.4.2"
+  },
+  {
+    "name": "sw-penang-007",
+    "site": "penang",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.202.7",
+    "os_version": "17.10.2"
+  },
+  {
+    "name": "sw-penang-008",
+    "site": "penang",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.202.8",
+    "os_version": "17.10.1"
+  },
+  {
+    "name": "sw-penang-009",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.9",
+    "os_version": "17.6.5"
+  },
+  {
+    "name": "sw-penang-010",
+    "site": "penang",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.202.10",
+    "os_version": "17.12.3"
+  },
+  {
+    "name": "sw-penang-011",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.11",
+    "os_version": "17.11.1"
+  },
+  {
+    "name": "sw-penang-012",
+    "site": "penang",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.202.12",
+    "os_version": "17.10.3"
+  },
+  {
+    "name": "sw-penang-013",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.13",
+    "os_version": "17.8.2"
+  },
+  {
+    "name": "sw-penang-014",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.14",
+    "os_version": "17.12.1"
+  },
+  {
+    "name": "sw-penang-015",
+    "site": "penang",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.202.15",
+    "os_version": "17.11.5"
+  },
+  {
+    "name": "sw-penang-016",
+    "site": "penang",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.202.16",
+    "os_version": "17.5.3"
+  },
+  {
+    "name": "sw-penang-017",
+    "site": "penang",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.202.17",
+    "os_version": "17.4.4"
+  },
+  {
+    "name": "sw-penang-018",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.18",
+    "os_version": "17.5.3"
+  },
+  {
+    "name": "sw-penang-019",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.19",
+    "os_version": "17.4.4"
+  },
+  {
+    "name": "sw-penang-020",
+    "site": "penang",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.202.20",
+    "os_version": "17.12.4"
+  },
+  {
+    "name": "sw-penang-021",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.21",
+    "os_version": "17.9.5"
+  },
+  {
+    "name": "sw-penang-022",
+    "site": "penang",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.202.22",
+    "os_version": "17.6.2"
+  },
+  {
+    "name": "sw-penang-023",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.23",
+    "os_version": "17.4.3"
+  },
+  {
+    "name": "sw-penang-024",
+    "site": "penang",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.202.24",
+    "os_version": "17.10.5"
+  },
+  {
+    "name": "sw-penang-025",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.25",
+    "os_version": "17.10.2"
+  },
+  {
+    "name": "sw-penang-026",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.26",
+    "os_version": "17.6.2"
+  },
+  {
+    "name": "sw-penang-027",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.27",
+    "os_version": "17.5.2"
+  },
+  {
+    "name": "sw-penang-028",
+    "site": "penang",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.202.28",
+    "os_version": "17.7.1"
+  },
+  {
+    "name": "sw-penang-029",
+    "site": "penang",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.202.29",
+    "os_version": "17.8.3"
+  },
+  {
+    "name": "sw-penang-030",
+    "site": "penang",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.202.30",
+    "os_version": "17.9.2"
+  },
+  {
+    "name": "sw-penang-031",
+    "site": "penang",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.202.31",
+    "os_version": "17.11.3"
+  },
+  {
+    "name": "sw-penang-032",
+    "site": "penang",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.202.32",
+    "os_version": "17.5.1"
+  },
+  {
+    "name": "sw-penang-033",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.33",
+    "os_version": "17.8.4"
+  },
+  {
+    "name": "sw-penang-034",
+    "site": "penang",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.202.34",
+    "os_version": "17.5.5"
+  },
+  {
+    "name": "sw-penang-035",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.35",
+    "os_version": "17.6.1"
+  },
+  {
+    "name": "sw-penang-036",
+    "site": "penang",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.202.36",
+    "os_version": "17.5.2"
+  },
+  {
+    "name": "sw-penang-037",
+    "site": "penang",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.202.37",
+    "os_version": "17.11.1"
+  },
+  {
+    "name": "sw-penang-038",
+    "site": "penang",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.202.38",
+    "os_version": "17.10.1"
+  },
+  {
+    "name": "sw-penang-039",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.39",
+    "os_version": "17.8.4"
+  },
+  {
+    "name": "sw-penang-040",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.40",
+    "os_version": "17.6.3"
+  },
+  {
+    "name": "sw-penang-041",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.41",
+    "os_version": "17.3.5"
+  },
+  {
+    "name": "sw-penang-042",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.42",
+    "os_version": "17.10.5"
+  },
+  {
+    "name": "sw-penang-043",
+    "site": "penang",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.202.43",
+    "os_version": "17.11.3"
+  },
+  {
+    "name": "sw-penang-044",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.44",
+    "os_version": "17.9.3"
+  },
+  {
+    "name": "sw-penang-045",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.45",
+    "os_version": "17.8.3"
+  },
+  {
+    "name": "sw-penang-046",
+    "site": "penang",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.202.46",
+    "os_version": "17.3.1"
+  },
+  {
+    "name": "sw-penang-047",
+    "site": "penang",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.202.47",
+    "os_version": "17.7.5"
+  },
+  {
+    "name": "sw-penang-048",
+    "site": "penang",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.202.48",
+    "os_version": "17.6.2"
+  },
+  {
+    "name": "sw-penang-049",
+    "site": "penang",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.202.49",
+    "os_version": "17.5.1"
+  },
+  {
+    "name": "sw-penang-050",
+    "site": "penang",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.202.50",
+    "os_version": "17.4.4"
+  },
+  {
+    "name": "sw-penang-051",
+    "site": "penang",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.202.51",
+    "os_version": "17.5.5"
+  },
+  {
+    "name": "sw-penang-052",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.52",
+    "os_version": "17.6.4"
+  },
+  {
+    "name": "sw-penang-053",
+    "site": "penang",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.202.53",
+    "os_version": "17.7.5"
+  },
+  {
+    "name": "sw-penang-054",
+    "site": "penang",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.202.54",
+    "os_version": "17.10.2"
+  },
+  {
+    "name": "sw-pj-dc-001",
+    "site": "pj-dc",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.201.1",
+    "os_version": "17.5.2"
+  },
+  {
+    "name": "sw-pj-dc-002",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.2",
+    "os_version": "17.9.3"
+  },
+  {
+    "name": "sw-pj-dc-003",
+    "site": "pj-dc",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.201.3",
+    "os_version": "17.12.4"
+  },
+  {
+    "name": "sw-pj-dc-004",
+    "site": "pj-dc",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.201.4",
+    "os_version": "17.9.1"
+  },
+  {
+    "name": "sw-pj-dc-005",
+    "site": "pj-dc",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.201.5",
+    "os_version": "17.5.1"
+  },
+  {
+    "name": "sw-pj-dc-006",
+    "site": "pj-dc",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.201.6",
+    "os_version": "17.5.5"
+  },
+  {
+    "name": "sw-pj-dc-007",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.7",
+    "os_version": "17.10.1"
+  },
+  {
+    "name": "sw-pj-dc-008",
+    "site": "pj-dc",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.201.8",
+    "os_version": "17.7.1"
+  },
+  {
+    "name": "sw-pj-dc-009",
+    "site": "pj-dc",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.201.9",
+    "os_version": "17.10.1"
+  },
+  {
+    "name": "sw-pj-dc-010",
+    "site": "pj-dc",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.201.10",
+    "os_version": "17.9.3"
+  },
+  {
+    "name": "sw-pj-dc-011",
+    "site": "pj-dc",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.201.11",
+    "os_version": "17.8.5"
+  },
+  {
+    "name": "sw-pj-dc-012",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.12",
+    "os_version": "17.6.5"
+  },
+  {
+    "name": "sw-pj-dc-013",
+    "site": "pj-dc",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.201.13",
+    "os_version": "17.11.1"
+  },
+  {
+    "name": "sw-pj-dc-014",
+    "site": "pj-dc",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.201.14",
+    "os_version": "17.12.1"
+  },
+  {
+    "name": "sw-pj-dc-015",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.15",
+    "os_version": "17.8.4"
+  },
+  {
+    "name": "sw-pj-dc-016",
+    "site": "pj-dc",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.201.16",
+    "os_version": "17.3.3"
+  },
+  {
+    "name": "sw-pj-dc-017",
+    "site": "pj-dc",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.201.17",
+    "os_version": "17.4.3"
+  },
+  {
+    "name": "sw-pj-dc-018",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.18",
+    "os_version": "17.9.2"
+  },
+  {
+    "name": "sw-pj-dc-019",
+    "site": "pj-dc",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.201.19",
+    "os_version": "17.12.2"
+  },
+  {
+    "name": "sw-pj-dc-020",
+    "site": "pj-dc",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.201.20",
+    "os_version": "17.5.1"
+  },
+  {
+    "name": "sw-pj-dc-021",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.21",
+    "os_version": "17.9.4"
+  },
+  {
+    "name": "sw-pj-dc-022",
+    "site": "pj-dc",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.201.22",
+    "os_version": "17.11.1"
+  },
+  {
+    "name": "sw-pj-dc-023",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.23",
+    "os_version": "17.5.3"
+  },
+  {
+    "name": "sw-pj-dc-024",
+    "site": "pj-dc",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.201.24",
+    "os_version": "17.11.2"
+  },
+  {
+    "name": "sw-pj-dc-025",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.25",
+    "os_version": "17.9.4"
+  },
+  {
+    "name": "sw-pj-dc-026",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.26",
+    "os_version": "17.4.2"
+  },
+  {
+    "name": "sw-pj-dc-027",
+    "site": "pj-dc",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.201.27",
+    "os_version": "17.10.3"
+  },
+  {
+    "name": "sw-pj-dc-028",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.28",
+    "os_version": "17.12.1"
+  },
+  {
+    "name": "sw-pj-dc-029",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.29",
+    "os_version": "17.12.5"
+  },
+  {
+    "name": "sw-pj-dc-030",
+    "site": "pj-dc",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.201.30",
+    "os_version": "17.9.1"
+  },
+  {
+    "name": "sw-pj-dc-031",
+    "site": "pj-dc",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.201.31",
+    "os_version": "17.8.2"
+  },
+  {
+    "name": "sw-pj-dc-032",
+    "site": "pj-dc",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.201.32",
+    "os_version": "17.10.5"
+  },
+  {
+    "name": "sw-pj-dc-033",
+    "site": "pj-dc",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.201.33",
+    "os_version": "17.6.2"
+  },
+  {
+    "name": "sw-pj-dc-034",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.34",
+    "os_version": "17.8.1"
+  },
+  {
+    "name": "sw-pj-dc-035",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.35",
+    "os_version": "17.4.5"
+  },
+  {
+    "name": "sw-pj-dc-036",
+    "site": "pj-dc",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.201.36",
+    "os_version": "17.4.3"
+  },
+  {
+    "name": "sw-pj-dc-037",
+    "site": "pj-dc",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.201.37",
+    "os_version": "17.6.1"
+  },
+  {
+    "name": "sw-pj-dc-038",
+    "site": "pj-dc",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.201.38",
+    "os_version": "17.8.5"
+  },
+  {
+    "name": "sw-pj-dc-039",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.39",
+    "os_version": "17.10.5"
+  },
+  {
+    "name": "sw-pj-dc-040",
+    "site": "pj-dc",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.201.40",
+    "os_version": "17.4.2"
+  },
+  {
+    "name": "sw-pj-dc-041",
+    "site": "pj-dc",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.201.41",
+    "os_version": "17.9.5"
+  },
+  {
+    "name": "sw-pj-dc-042",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.42",
+    "os_version": "17.5.5"
+  },
+  {
+    "name": "sw-pj-dc-043",
+    "site": "pj-dc",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.201.43",
+    "os_version": "17.10.3"
+  },
+  {
+    "name": "sw-pj-dc-044",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.44",
+    "os_version": "17.9.3"
+  },
+  {
+    "name": "sw-pj-dc-045",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.45",
+    "os_version": "17.9.2"
+  },
+  {
+    "name": "sw-pj-dc-046",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.46",
+    "os_version": "17.11.2"
+  },
+  {
+    "name": "sw-pj-dc-047",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.47",
+    "os_version": "17.6.3"
+  },
+  {
+    "name": "sw-pj-dc-048",
+    "site": "pj-dc",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.201.48",
+    "os_version": "17.5.1"
+  },
+  {
+    "name": "sw-pj-dc-049",
+    "site": "pj-dc",
+    "model": "C9300-48P",
+    "mgmt_ip": "10.15.201.49",
+    "os_version": "17.8.5"
+  },
+  {
+    "name": "sw-pj-dc-050",
+    "site": "pj-dc",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.201.50",
+    "os_version": "17.11.2"
+  },
+  {
+    "name": "sw-pj-dc-051",
+    "site": "pj-dc",
+    "model": "C9200L-24T",
+    "mgmt_ip": "10.15.201.51",
+    "os_version": "17.12.2"
+  },
+  {
+    "name": "sw-pj-dc-052",
+    "site": "pj-dc",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.201.52",
+    "os_version": "17.4.5"
+  },
+  {
+    "name": "sw-pj-dc-053",
+    "site": "pj-dc",
+    "model": "N9K-C93180YC",
+    "mgmt_ip": "10.15.201.53",
+    "os_version": "17.12.1"
+  },
+  {
+    "name": "sw-pj-dc-054",
+    "site": "pj-dc",
+    "model": "ISR4331",
+    "mgmt_ip": "10.15.201.54",
+    "os_version": "17.12.4"
+  }
+]

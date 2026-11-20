@@ -1,0 +1,45 @@
+{
+  "writes": 5,
+  "items": [
+    {
+      "seq": 1,
+      "time": "07:17:37",
+      "method": "PUT",
+      "path": "/api/v1/vlans/30",
+      "status": 201,
+      "change": "created VLAN 30 guests"
+    },
+    {
+      "seq": 2,
+      "time": "07:17:57",
+      "method": "DELETE",
+      "path": "/api/v1/vlans/99",
+      "status": 204,
+      "change": "deleted VLAN 99"
+    },
+    {
+      "seq": 3,
+      "time": "07:19:04",
+      "method": "POST",
+      "path": "/api/v1/acl/entries",
+      "status": 201,
+      "change": "added ACL entry 1: deny 10.15.30.0/24 \u2192 10.15.20.0/24 tcp/22"
+    },
+    {
+      "seq": 4,
+      "time": "07:19:39",
+      "method": "POST",
+      "path": "/api/v1/acl/entries",
+      "status": 201,
+      "change": "added ACL entry 2: deny 10.15.30.0/24 \u2192 10.15.20.0/24 tcp/22"
+    },
+    {
+      "seq": 5,
+      "time": "07:21:14",
+      "method": "POST",
+      "path": "/api/v1/acl/entries",
+      "status": 201,
+      "change": "added ACL entry 3: deny 10.15.30.0/24 \u2192 10.15.20.0/24 tcp/22"
+    }
+  ]
+}
