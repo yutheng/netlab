@@ -1,0 +1,193 @@
+Plan:
+  + CREATE VLAN 50 (guests)
+  ~ UPDATE VLAN 10: 'users' -> 'student'
+  ~ UPDATE VLAN 20: 'servers' -> 'staff'
+  ~ UPDATE VLAN 99: 'old-guest' -> 'management'
+  + CREATE ACL: permit 10.15.99.0/24 -> 10.15.0.0/16 tcp:22 (management-ssh-all)
+  + CREATE ACL: deny 10.15.50.0/24 -> 10.15.99.0/24 any (guests-no-management)
+  + CREATE ACL: deny 10.15.10.0/24 -> 10.15.20.0/24 tcp:21 (students-no-staff-ftp)
+  + CREATE ACL: permit 10.15.30.0/24 -> 10.15.40.0/24 tcp:443 (lecturer-https-lan)
+  + CREATE ACL: deny 10.15.50.0/24 -> 10.15.20.0/24 any (guests-no-staff)
+  [retry] PUT /api/v1/vlans/20: 503 Service Unavailable, waiting 1.04s
+  [retry] PUT /api/v1/vlans/99: 503 Service Unavailable, waiting 1.09s
+  [retry] POST /api/v1/acl/entries: 503 Service Unavailable, waiting 1.32s
+  [retry] POST /api/v1/acl/entries: no response (ConnectionError), waiting 2.44s
+  [retry] POST /api/v1/acl/entries: no response (ConnectionError), waiting 1.48s
+  [retry] GET /api/v1/acl/entries: 503 Service Unavailable, waiting 1.11s
+Result: API state matches intent.yaml.
+{
+  "writes": 11,
+  "items": [
+    {
+      "seq": 1,
+      "time": "10:34:07",
+      "method": "PUT",
+      "path": "/api/v1/vlans/30",
+      "status": 201,
+      "change": "created VLAN 30 lecturer"
+    },
+    {
+      "seq": 2,
+      "time": "10:34:23",
+      "method": "PUT",
+      "path": "/api/v1/vlans/40",
+      "status": 201,
+      "change": "created VLAN 40 lan"
+    },
+    {
+      "seq": 3,
+      "time": "10:38:32",
+      "method": "PUT",
+      "path": "/api/v1/vlans/50",
+      "status": 201,
+      "change": "created VLAN 50 guests"
+    },
+    {
+      "seq": 4,
+      "time": "10:38:32",
+      "method": "PUT",
+      "path": "/api/v1/vlans/10",
+      "status": 200,
+      "change": "set VLAN 10 student"
+    },
+    {
+      "seq": 5,
+      "time": "10:38:33",
+      "method": "PUT",
+      "path": "/api/v1/vlans/20",
+      "status": 200,
+      "change": "set VLAN 20 staff"
+    },
+    {
+      "seq": 6,
+      "time": "10:38:34",
+      "method": "PUT",
+      "path": "/api/v1/vlans/99",
+      "status": 200,
+      "change": "set VLAN 99 management"
+    },
+    {
+      "seq": 7,
+      "time": "10:38:34",
+      "method": "POST",
+      "path": "/api/v1/acl/entries",
+      "status": 201,
+      "change": "added ACL entry 1: permit 10.15.99.0/24 \u2192 10.15.0.0/16 tcp/22"
+    },
+    {
+      "seq": 8,
+      "time": "10:38:34",
+      "method": "POST",
+      "path": "/api/v1/acl/entries",
+      "status": 201,
+      "change": "added ACL entry 2: deny 10.15.50.0/24 \u2192 10.15.99.0/24 any"
+    },
+    {
+      "seq": 9,
+      "time": "10:38:36",
+      "method": "POST",
+      "path": "/api/v1/acl/entries",
+      "status": 201,
+      "change": "added ACL entry 3: deny 10.15.10.0/24 \u2192 10.15.20.0/24 tcp/21"
+    },
+    {
+      "seq": 10,
+      "time": "10:38:38",
+      "method": "POST",
+      "path": "/api/v1/acl/entries",
+      "status": 201,
+      "change": "added ACL entry 4: permit 10.15.30.0/24 \u2192 10.15.40.0/24 tcp/443"
+    },
+    {
+      "seq": 11,
+      "time": "10:38:38",
+      "method": "POST",
+      "path": "/api/v1/acl/entries",
+      "status": 201,
+      "change": "added ACL entry 5: deny 10.15.50.0/24 \u2192 10.15.20.0/24 any"
+    }
+  ]
+}
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "default"
+    },
+    {
+      "id": 10,
+      "name": "student"
+    },
+    {
+      "id": 20,
+      "name": "staff"
+    },
+    {
+      "id": 30,
+      "name": "lecturer"
+    },
+    {
+      "id": 40,
+      "name": "lan"
+    },
+    {
+      "id": 50,
+      "name": "guests"
+    },
+    {
+      "id": 99,
+      "name": "management"
+    }
+  ],
+  "next": null
+}
+{
+  "items": [
+    {
+      "id": 1,
+      "action": "permit",
+      "src": "10.15.99.0/24",
+      "dst": "10.15.0.0/16",
+      "protocol": "tcp",
+      "port": 22,
+      "description": "management-ssh-all"
+    },
+    {
+      "id": 2,
+      "action": "deny",
+      "src": "10.15.50.0/24",
+      "dst": "10.15.99.0/24",
+      "protocol": "any",
+      "port": null,
+      "description": "guests-no-management"
+    },
+    {
+      "id": 3,
+      "action": "deny",
+      "src": "10.15.10.0/24",
+      "dst": "10.15.20.0/24",
+      "protocol": "tcp",
+      "port": 21,
+      "description": "students-no-staff-ftp"
+    },
+    {
+      "id": 4,
+      "action": "permit",
+      "src": "10.15.30.0/24",
+      "dst": "10.15.40.0/24",
+      "protocol": "tcp",
+      "port": 443,
+      "description": "lecturer-https-lan"
+    },
+    {
+      "id": 5,
+      "action": "deny",
+      "src": "10.15.50.0/24",
+      "dst": "10.15.20.0/24",
+      "protocol": "any",
+      "port": null,
+      "description": "guests-no-staff"
+    }
+  ],
+  "next": null
+}

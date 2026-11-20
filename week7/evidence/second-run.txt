@@ -1,0 +1,96 @@
+Plan: no changes needed (API already matches intent).
+  [retry] GET /api/v1/vlans: 503 Service Unavailable, waiting 1.18s
+Result: API state matches intent.yaml.
+{
+  "writes": 11,
+  "items": [
+    {
+      "seq": 1,
+      "time": "10:34:07",
+      "method": "PUT",
+      "path": "/api/v1/vlans/30",
+      "status": 201,
+      "change": "created VLAN 30 lecturer"
+    },
+    {
+      "seq": 2,
+      "time": "10:34:23",
+      "method": "PUT",
+      "path": "/api/v1/vlans/40",
+      "status": 201,
+      "change": "created VLAN 40 lan"
+    },
+    {
+      "seq": 3,
+      "time": "10:38:32",
+      "method": "PUT",
+      "path": "/api/v1/vlans/50",
+      "status": 201,
+      "change": "created VLAN 50 guests"
+    },
+    {
+      "seq": 4,
+      "time": "10:38:32",
+      "method": "PUT",
+      "path": "/api/v1/vlans/10",
+      "status": 200,
+      "change": "set VLAN 10 student"
+    },
+    {
+      "seq": 5,
+      "time": "10:38:33",
+      "method": "PUT",
+      "path": "/api/v1/vlans/20",
+      "status": 200,
+      "change": "set VLAN 20 staff"
+    },
+    {
+      "seq": 6,
+      "time": "10:38:34",
+      "method": "PUT",
+      "path": "/api/v1/vlans/99",
+      "status": 200,
+      "change": "set VLAN 99 management"
+    },
+    {
+      "seq": 7,
+      "time": "10:38:34",
+      "method": "POST",
+      "path": "/api/v1/acl/entries",
+      "status": 201,
+      "change": "added ACL entry 1: permit 10.15.99.0/24 \u2192 10.15.0.0/16 tcp/22"
+    },
+    {
+      "seq": 8,
+      "time": "10:38:34",
+      "method": "POST",
+      "path": "/api/v1/acl/entries",
+      "status": 201,
+      "change": "added ACL entry 2: deny 10.15.50.0/24 \u2192 10.15.99.0/24 any"
+    },
+    {
+      "seq": 9,
+      "time": "10:38:36",
+      "method": "POST",
+      "path": "/api/v1/acl/entries",
+      "status": 201,
+      "change": "added ACL entry 3: deny 10.15.10.0/24 \u2192 10.15.20.0/24 tcp/21"
+    },
+    {
+      "seq": 10,
+      "time": "10:38:38",
+      "method": "POST",
+      "path": "/api/v1/acl/entries",
+      "status": 201,
+      "change": "added ACL entry 4: permit 10.15.30.0/24 \u2192 10.15.40.0/24 tcp/443"
+    },
+    {
+      "seq": 11,
+      "time": "10:38:38",
+      "method": "POST",
+      "path": "/api/v1/acl/entries",
+      "status": 201,
+      "change": "added ACL entry 5: deny 10.15.50.0/24 \u2192 10.15.20.0/24 any"
+    }
+  ]
+}

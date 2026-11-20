@@ -1,0 +1,56 @@
+# intent.yaml: what the lab API should hold, for the Week 7 assignment. Your sync.py makes it so.
+#
+# Replace 4207 with the last 4 digits of your student ID, and every 10.7. with 10.NN.,
+# where NN is the last 2 digits (as a number: 07 â†’ 7). Then make it your own network's intent.
+#
+# Requirements:
+#   - at least 6 VLANs (ids 2 to 4094 â€” VLAN 1 belongs to the API), each with a name
+#     (1 to 32 letters, digits, '-' or '_');
+#   - at least 4 ACL entries, on your own addresses (10.NN.0.0/16), including at least one
+#     permit and one deny, and at least one with a port (tcp or udp only).
+# Anything on the API that ISN'T here is removed by sync.py (except VLAN 1): this file is the
+# whole truth, like Week 2's network.yaml.
+
+student_id_last4: "5015"
+
+vlans:
+  - {id: 10, name: student}
+  - {id: 20, name: staff}
+  - {id: 30, name: lecturer}
+  - {id: 40, name: lan}
+  - {id: 50, name: guests}
+  - {id: 99, name: management}
+
+acl:
+  - action: permit
+    src: 10.15.99.0/24
+    dst: 10.15.0.0/16
+    protocol: tcp
+    port: 22
+    description: management-ssh-all
+
+  - action: deny
+    src: 10.15.50.0/24
+    dst: 10.15.99.0/24
+    protocol: any
+    description: guests-no-management
+
+  - action: deny
+    src: 10.15.10.0/24
+    dst: 10.15.20.0/24
+    protocol: tcp
+    port: 21
+    description: students-no-staff-ftp
+
+  - action: permit
+    src: 10.15.30.0/24
+    dst: 10.15.40.0/24
+    protocol: tcp
+    port: 443
+    description: lecturer-https-lan
+
+  - action: deny
+    src: 10.15.50.0/24
+    dst: 10.15.20.0/24
+    protocol: any
+    description: guests-no-staff

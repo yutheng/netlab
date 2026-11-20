@@ -1,0 +1,16 @@
+Plan:
+  + CREATE VLAN 30 (lecturer)
+  + CREATE VLAN 40 (lan)
+  + CREATE VLAN 50 (guests)
+  ~ UPDATE VLAN 10: 'users' -> 'student'
+  ~ UPDATE VLAN 20: 'servers' -> 'staff'
+  ~ UPDATE VLAN 99: 'old-guest' -> 'management'
+  + CREATE ACL: permit 10.15.99.0/24 -> 10.15.0.0/16 tcp:22 (management-ssh-all)
+  + CREATE ACL: deny 10.15.50.0/24 -> 10.15.99.0/24 any (guests-no-management)
+  + CREATE ACL: deny 10.15.10.0/24 -> 10.15.20.0/24 tcp:21 (students-no-staff-ftp)
+  + CREATE ACL: permit 10.15.30.0/24 -> 10.15.40.0/24 tcp:443 (lecturer-https-lan)
+  + CREATE ACL: deny 10.15.50.0/24 -> 10.15.20.0/24 any (guests-no-staff)
+{
+  "writes": 0,
+  "items": []
+}
